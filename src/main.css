@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic|Lobster+Two:400,700);
+
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
@@ -6,8 +8,8 @@
 
 body {
   background: #F5F5F5;
-  color: #444;
-  font-family: "Helvetica Neue", Arial, serif;
+  color: #1E314A;
+  font-family: "Helvetica", Arial, serif;
   font-size: 22px;
   margin: 0;
   padding: 0;
@@ -16,8 +18,20 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4 {
+h1 {
+  font-family: "Lobster two", Georgia, Serif;
+  letter-spacing: 1px;
   margin: 10px 0 15px;
+}
+
+h2, h3, h4 {
+  font-family: "Helvetica", Arial, serif;
+  text-transform: uppercase;
+  margin: 10px 0 15px;
+}
+
+h2 {
+  color: #CDA737;
 }
 
 p, ul {
@@ -29,15 +43,15 @@ ul li {
 }
 
 a {
-  color: #00b8d4;
+  color: #CDA737;
   font-weight: 600;
   text-decoration: none;
-  border-bottom: 3px solid #00b8d4;
+  border-bottom: 2px solid #1E314A;
   padding: 3px;
 }
 
 a:hover {
-  background-color: #00b8d4;
+  background-color: #CDA737;
   color: white;
 }
 
@@ -60,11 +74,11 @@ a:active {
 .header {
   align-items: center;
   background-color: #EFEFEF;
-  background-image: url('bg.jpg');
+  background-image: url(bg.jpg);
   background-position: cover;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  border-top: 4px solid #e91e63;
+  border-top: 4px solid #CDA737;
   color: #FFFFFF;
   display: flex;
   flex-direction: column;
@@ -101,7 +115,7 @@ a:active {
 }
 
 .header h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 100;
 }
 
@@ -116,6 +130,6 @@ a:active {
  */
 
 .skills {
-  background: #e91e63;
-  color: white;
+  background: #CDA737;
+  color: #F2F5FB;
 }
